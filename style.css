@@ -1,0 +1,51 @@
+body {
+  background-color: beige;
+}
+
+div {
+  width: 300px;
+  height: 200px;
+  margin: 50px;
+  border: 2px dashed black;
+  padding: 20px;
+  font-size: 20px;
+}
+
+button {
+  padding; 20px;
+  front-size: 50px;
+  border: 2px solid turquoise;
+  radius: 10px;
+}
+
+#moveableDiv {
+  transition: transform 1s;
+}
+
+#moveableDiv:hover {
+  transform: scale(2);
+}
+
+@keyframes quickAnimation {
+  from {
+
+  }
+  to {
+    transform: scale(2) rotate(30deg)
+  }
+}
+
+@keyframes colorAnimation {
+  0% {
+    background-color: pink;
+  }
+  30% {
+    background-color: blue;
+  }
+  60% {
+    background-color: yellow;
+  }
+  100% {
+    background-color: beige;
+  }
+}
